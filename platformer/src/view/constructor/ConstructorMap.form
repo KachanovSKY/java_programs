@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="view.constructor.ConstructorMap">
+  <grid id="27dc6" binding="ConstructorMap" layout-manager="GridLayoutManager" row-count="13" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="10" left="10" bottom="10" right="10"/>
+    <constraints>
+      <xy x="20" y="20" width="900" height="600"/>
+    </constraints>
+    <properties>
+      <background color="-11503698"/>
+      <foreground color="-11841700"/>
+      <maximumSize width="900" height="600"/>
+      <minimumSize width="900" height="600"/>
+      <preferredSize width="900" height="600"/>
+      <verifyInputWhenFocusTarget value="false"/>
+    </properties>
+    <border type="none"/>
+    <children>
+      <vspacer id="3694c">
+        <constraints>
+          <grid row="12" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="60"/>
+            <preferred-size width="-1" height="60"/>
+            <maximum-size width="-1" height="60"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="ed57a">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="20"/>
+            <preferred-size width="-1" height="20"/>
+            <maximum-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <vspacer id="12340">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="30"/>
+            <preferred-size width="-1" height="30"/>
+            <maximum-size width="-1" height="30"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="d16ef" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Graduate"/>
+          <text value="Level Name"/>
+        </properties>
+      </component>
+      <component id="76934" class="javax.swing.JTextField" binding="LevelName">
+        <constraints>
+          <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="240" height="80"/>
+          </grid>
+        </constraints>
+        <properties>
+          <focusable value="true"/>
+          <font name="Graduate"/>
+          <text value=""/>
+        </properties>
+      </component>
+      <component id="15878" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Graduate"/>
+          <text value="Items Selector"/>
+        </properties>
+      </component>
+      <component id="9678f" class="javax.swing.JComboBox" binding="items">
+        <constraints>
+          <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="240" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Graduate"/>
+          <model>
+            <item value="Block"/>
+            <item value="Coin"/>
+            <item value="Spawn Player"/>
+          </model>
+        </properties>
+      </component>
+      <grid id="59a74" binding="levelField" custom-create="true" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="2" vgap="2">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="11" col-span="1" vsize-policy="0" hsize-policy="0" anchor="2" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="512" height="512"/>
+            <preferred-size width="512" height="512"/>
+            <maximum-size width="512" height="512"/>
+          </grid>
+        </constraints>
+        <properties>
+          <background color="-13788176"/>
+        </properties>
+        <border type="line">
+          <color color="-1"/>
+        </border>
+        <children/>
+      </grid>
+      <component id="27b04" class="javax.swing.JButton" binding="exitButton">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="240" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Graduate"/>
+          <text value="Menu"/>
+        </properties>
+      </component>
+      <component id="a52d5" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font name="Graduate"/>
+          <text value="Level Selector"/>
+        </properties>
+      </component>
+      <component id="4ea02" class="javax.swing.JComboBox" binding="Selector">
+        <constraints>
+          <grid row="8" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="240" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Graduate"/>
+        </properties>
+      </component>
+      <vspacer id="b642f">
+        <constraints>
+          <grid row="9" column="1" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <minimum-size width="-1" height="25"/>
+            <preferred-size width="-1" height="25"/>
+            <maximum-size width="-1" height="25"/>
+          </grid>
+        </constraints>
+      </vspacer>
+      <component id="7c78b" class="javax.swing.JButton" binding="SaveButton">
+        <constraints>
+          <grid row="10" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="240" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <font name="Graduate"/>
+          <text value="Save Map"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
